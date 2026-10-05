@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Player', 'Raider', 'referee']
+
+roboflow:
+  workspace: santhosh-r-sabcy
+  project: kabaddi-player-detection-yw33k-wpbd0
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/santhosh-r-sabcy/kabaddi-player-detection-yw33k-wpbd0/1
